@@ -1,0 +1,13 @@
+<!-- Generated template for the DeviceBoxComponent component -->
+<ion-grid no-padding>
+  <ion-row>
+    <ion-col col-1>
+      <img class="icon" src={{getImage(device)}}>
+    </ion-col>
+    <ion-col>{{device['name']}}</ion-col>
+    <ion-col col-7>{{device['last_update'] | date: "d. MMM. y HH:mm:ss"}}</ion-col>
+    <ion-col col-1>
+      <span class="dot {{dotType}}"></span>
+    </ion-col>
+  </ion-row>
+</ion-grid>

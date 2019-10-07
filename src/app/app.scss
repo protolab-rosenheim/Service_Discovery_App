@@ -1,0 +1,68 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+// Custom App Icons
+// --------------------------------------------------
+ion-icon {
+    &[class*="custom-"] {
+        mask-size: contain;
+        mask-position: 50% 50%;
+        mask-repeat: no-repeat;
+        background: currentColor;
+        width: 1.4em;
+        height: 1.4em;
+    }
+    &[class*="custom-Flachwagen"] {
+        mask-image: url(../assets/icon/flatwaggon.svg);
+    }
+    &[class*="custom-Kommissioniercontainer"] {
+        mask-image: url(../assets/icon/container.svg);
+    }
+    &[class*="custom-barcodescanner"] {
+        mask-image: url(../assets/icon/barcodescanner.svg);
+    }
+    &[class*="custom-drill"] {
+        mask-image: url(../assets/icon/Bohren_Fraesen.svg);
+    }
+    &[class*="custom-edge"] {
+        mask-image: url(../assets/icon/KAM.svg);
+    }
+    &[class*="custom-config"] {
+        mask-image: url(../assets/icon/Konfigurator.svg);
+    }
+    &[class*="custom-assembly"] {
+        mask-image: url(../assets/icon/Montage.svg);
+    }
+    &[class*="custom-saw"] {
+        mask-image: url(../assets/icon/Saege.svg);
+    }
+    &[class*="custom-shredder"] {
+        mask-image: url(../assets/icon/Schredder.svg);
+    }
+    &[class*="custom-robot"] {
+        mask-image: url(../assets/icon/Roboter.svg);
+    }
+    &[class*="custom-ProGlove"] {
+        mask-image: url(../assets/icon/Handschuh.svg);
+    }
+    &[class*="custom-Trichter"] {
+        mask-image: url(../assets/icon/Trichter.svg);
+    }
+    &[class*="custom-Beschlaegeturm"] {
+        mask-image: url(../assets/icon/Beschläge.svg);
+    }
+}

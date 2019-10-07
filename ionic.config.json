@@ -1,0 +1,7 @@
+{
+  "name": "Service_Discovery_App",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

@@ -1,0 +1,13 @@
+[
+	{
+		"type": "group",
+		"title": "Common",
+		"items": [
+			{
+				"title": "ServiceDiscovery URL",
+				"type": "textfield",
+				"key": "ServiceDiscoveryUrl"
+			}
+		]
+	}
+]
